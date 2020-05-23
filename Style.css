@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  font-family: "Open Sans", sans serif;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 100px;
+  background-color: #232830;
+  display: flex;
+  flex-wrap: wrap; /*перенос строки */
+  justify-content: space-around; 
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+}
+
+.header .logo {
+  padding-left: 30px;
+}
+
+ .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.menu ul li a {
+  display: block;
+  height: 100%;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 23px;
+  border-radius: 10px;
+  transition: 500ms linear;
+}
+
+.menu ul li a:hover {
+  color: #232830;
+  background-color: #ccc;
+}
+
+.CompanyName {
+  color: #ccc;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.block {
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 4em;
+}
+
+.FirstText {
+  color: white;
+}
+  
+ img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none;
+  }
+
+  .NameAboutUs {
+    text-align: center;
+    color: rgb(212, 69, 69);
+    margin-top: 70px;
+    font-size: 38px;
+  }
+
+  .Container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .Container1 div {
+    text-align: center;
+    width: 750px;
+    margin-bottom: 20px;
+  }
+
+  .Container1 h1 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+ 
+  .Container1 p {
+    font-size: 25px;
+  }
+
+  .Container1 img {
+  width: 130px; 
+  margin-top: 155px;
+  margin-left: 310px;
+  margin-bottom: 30px;
+
+  }
+
+  .PricesName {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 38px;
+  }
+
+  .Prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  .Prices div {
+    width: 330px;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 40px;
+  }
+
+  .Prices h1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  .Prices p {
+    font-size: 20px;
+  }
+
+  #Kliuch {
+    width: 130px;
+    margin-left: 100px;
+    margin-top: -45px;
+  }
+
+  #dgiv {
+    margin-left: 125px;
+    margin-top: 25px;
+  }
+
+  #iv {
+    margin-left: 125px;
+    margin-top: 25px;
+  }
+
+  #suc {
+    margin-left: 135px;
+    margin-top: 25px;
+  }
+
+  .Block1 {
+   background-color: rgb(153, 153, 153);
+   border: 10px solid rgb(102, 102, 102);
+  }
+
+  .Block2 {
+    background-color: rgb(255, 211, 37);
+    border: 10px solid rgb(221, 159, 36);
+   }
+
+   .Block3 {
+    background-color: rgb(255, 102, 0);
+    border: 10px solid rgb(204, 51, 0);
+   }
+
+   .Block4 {
+    background-color: rgb(204, 0, 0);
+    border: 10px solid rgb(153, 0, 0);
+   }
+
+   .ProkladContainer {
+     display: flex;
+     width: auto;
+     justify-content: center;
+     margin-top: 80px;
+   }
+
+   .ProkladContainer1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+   .Proklad {
+     width: 300px;
+     height: 15px;
+     border-radius: 10px;
+     background-color: #3c4452;
+     margin-top: 25px;
+   }
+
+   .Proklad1 {
+    width: 225px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #3c4452;
+  }
+
+  .Proklad2 {
+    width: 150px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #3c4452;
+  }
+
+  .Proklad3 {
+    width: 75px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #3c4452;
+  }
+
+  .Proklad4 {
+    width: 20px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #3c4452;
+  }
+
+  .background {
+    background: url(images/background.jpg) 50% 0  no-repeat;
+    height: 1000px;
+  }
+
+  #t4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  .People {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Spetz {
+    width: 75%;
+    height: 700px;
+    margin-top: 80px;
+    border: 10px solid;
+    border-radius: 35px;
+    
+  }
+
+  .Spetz1{
+   background-color: #ffd700;
+   border-color: #e6c619;
+   box-shadow: 0 0 100px #ffe032;
+  }
+
+  .Spetz2 {
+    background-color: #3d008a;
+    border-color: #270058;
+    box-shadow: 0 0 100px #5602bd;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    color: rgb(255, 102, 0); 
+    }
+
+    .Spetz h1 {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 30px;
+    }
+
+    .medal img {
+      width: 100px;
+      margin: 15px 15px;
+    }
+
+    .gold img {
+      width: 100px;
+      margin: 15px 15px;
+    }
+
+  .medal {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gold {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .telefon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  .telefon img {
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  .mail img {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  footer {
+    height: 150px;
+    background: url(images/footer.jpg) 50% 0  no-repeat; 
+    clear: both;
+   }
+
+   footer section {
+     height: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     color: #ccc;
+   }
+
+   footer .vertical {
+     display: flex;
+     flex-direction: column;
+   }
+
+   footer .Fadres {
+    font-size: 18px;
+    margin-left: 25px;
+   }
+
+   footer .Lodro {
+     border-bottom: 2px solid currentColor;
+     font-size: 20px;
+   }
+
+   footer .footeeeeer {
+     font-size: 35px;
+     margin-right: 55px;
+   }
+
+   footer .vert {
+    width: 5px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: #ccc;
+   }
+
+   .likne {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black; 
+   }
+
+   .link {
+     margin-left: 10px;
+     text-decoration: none;
+     color: rgb(255, 102, 0); 
+   }
+
+   .Spetz1 a:hover {
+    border-bottom: 2px solid black;
+    color: rgb(43, 43, 43);
+  }
+
+   .Spetz2 a:hover {
+     border-bottom: 2px solid rgb(255, 102, 0);
+     color: rgb(247, 143, 74);
+   }
